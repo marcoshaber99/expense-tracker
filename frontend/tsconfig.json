@@ -26,7 +26,8 @@
     /* Path alias for @/components */
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@server/*": ["../server/*"]
     }
   },
   "include": ["src"],
